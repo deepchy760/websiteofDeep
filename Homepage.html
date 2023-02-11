@@ -1,0 +1,658 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+        
+<style type="text/css">
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    height: 1500px;
+    width: 1400px;
+}
+.row1{
+    height: 400px;
+    width: 1400px;
+    background-color: blue;
+    font-weight: bolder;
+}
+.row1col1{
+    height: 150px;
+    width: 900px;
+    background-color: gold;
+    margin: auto;
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+    box-shadow: 0px 0px 10px 20px gold;
+    text-shadow: 20px -10px 10px black;
+    transform: translate(0px,30px);
+    border-radius: 50px;
+}
+.row2{
+    height: 80px;
+    width: 1400px;
+    background-color: blue;
+}
+.row2col1{
+    height: 60px;
+    width: 300px;
+    float: left;
+    margin-left: 60px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transform: translate(-550px,-63px);
+    transition: .3s;
+    border-radius: 50px
+}
+.row2col1:hover{
+    background-color: darkblue;
+    font-size: 40px;
+    box-shadow: 0px 0px 20px 1px white;
+}
+.row2col2{
+    height: 60px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(-550px,-63px);
+    transition: .3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+.row2col2:hover{
+    background-color: darkblue;
+    font-size: 40px;
+    box-shadow: 0px 0px 20px 1px white;
+}
+.row2col3{
+    height: 60px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(110px,-123px);
+    transition: .3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+.row2col3:hover{
+    background-color: darkblue;
+    font-size: 40px;
+    box-shadow: 0px 0px 20px 1px white;
+}
+.row2col4{
+    height: 60px;
+    width: 300px;
+    float: left;
+    text-align: center;
+    font-size: 30px;
+    transform: translate(110px,-123px);
+    transition: .3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 50px;
+}
+.row2col4:hover{
+    background-color: darkblue;
+    font-size: 40px;
+    box-shadow: 0px 0px 20px 1px white;
+}
+.row3{
+    height: 1000px;
+    width: 1400px;
+    background-image: url(17.jpg);
+    background-attachment: fixed;
+    color: gray;
+}
+.row4{
+    height: 300px;
+    width: 1400px;
+    background: linear-gradient(25deg,orange,red, gold, green,blue);
+}
+.row4col1{
+    height: 300px;
+    width: 500px;
+    float: left;
+}
+.row4col1row1{
+    height: 60px;
+    width: 400px;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s;
+    border-radius: 10px;
+}
+.row4col1row1:hover{
+    background-color: darkblue;
+    font-size: 40px;
+}
+.row4col1row2{
+    height: 60px;
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s;
+    border-radius: 10px;
+}
+.row4col1row2:hover{
+    background-color: darkblue;
+    font-size: 40px;
+}
+.row4col1row3{
+    height: 60px;
+    width: 400px;
+    margin-left: 50px;
+     text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s;
+    border-radius: 10px;
+}
+.row4col1row3:hover{
+    background-color: darkblue;
+    font-size: 40px;
+}
+.row4col1row4{
+    height: 60px;
+    width: 400px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: .3s;
+    border-radius: 10px;
+}
+.row4col1row4:hover{
+    background-color: darkblue;
+    font-size: 40px;
+}
+.row4col2{
+    height: 300px;
+    width: 900px;
+    float: left;
+}
+.row5{
+    height: 100px;
+    width: 1400px;
+    background: linear-gradient(50deg,blue,red,gold);
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    font-family: cursive;
+}
+.row4col3{
+    height: 300px;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: translateX(500px);
+}
+.row4col3row1{
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    position: relative;
+    top: 15px;
+}
+.row4col3row1:hover{
+    font-size: 30px;
+}
+.row4col3row2{
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.row4col3row2:hover{
+    font-size: 30px;
+}
+.row4col3row3{
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 25px;
+}
+.row4col3row3:hover{
+    font-size: 30px;
+}
+.row4col3row4{
+    height: 30px;
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+.row4col3row4:hover{
+    font-size: 30px;
+}
+.sort{
+    height: 155px;
+    width: 1400px;
+    transform: translate(0px,56px);
+}
+.sorty{
+    height: 100px;
+    width: 770px;
+    transform: translate(300px,-270px);
+}
+.sortfir{
+    height: 70px;
+    width: 80px;
+    background-color: deepskyblue;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(30deg);
+    position: relative;
+    top: 15px;
+    left: 30px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortsec{
+    height: 70px;
+    width: 80px;
+    background-color: darkviolet;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(-30deg);
+    position: relative;
+    left: 55px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortthi{
+    height: 70px;
+    width: 80px;
+    background-color: mediumblue;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(30deg);
+    position: relative;
+    left: 80px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortfor{
+    height: 70px;
+    width: 80px;
+    background-color: red;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(-30deg);
+    position: relative;
+    left: 105px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortfiv{
+    height: 70px;
+    width: 80px;
+    background-color: gold;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(30deg);
+    position: relative;
+    left: 130px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortsix{
+    height: 70px;
+    width: 80px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(-30deg);
+    position: relative;
+    left: 155px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.sortsev{
+    height: 70px;
+    width: 80px;
+    background-color: aqua;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    transform: rotateZ(30deg);
+    position: relative;
+    left: 180px;
+    top: 15px;
+    box-shadow: 0px 0px 10px 5px grey;
+    text-shadow: 0px 0px 20px black;
+}
+.row4col4{
+    height: 300px;
+    width: 500px;
+    position: absolute;
+    left: 500px;
+}
+.row4col4row1{
+    height: 50px;
+    width: 120px;
+    transform: translate(200px,30px);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+.row4col4row1:hover{
+    font-size: 35px;
+    background-color: darkblue;
+    border-radius: 10px;
+    transition: .5s;
+}
+.row4col4row2{
+    height: 220px;
+    width: 200px;
+    transform: translate(170px,30px);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<div id="main">     <!--this is main div-->
+
+<div class="row1">   <!--this is row 1-->
+  <div class="row1col1">
+
+    Shree Mahunyal Secondary School
+     
+    </div>
+    <div style="transform: translate(35px,-120px); height: 150px; width: 150px; box-shadow: 0px 0px 10px 10px black; border-radius: 70px;
+    background-image: url(28.png); background-size: 150px 150px;">
+        <!--<img src="28.png" alt="" height="150px" width="150px"/>-->
+    </div>
+    <div style="transform: translate(1200px,-270px); height: 150px; width: 150px; box-shadow: 0px 0px 10px 10px black; border-radius: 70px;
+    background-image: url(25.jpg); background-size: 150px 150px;">
+        <!--<img src="25.jpg" alt="" height="150px" width="150px">-->
+    </div>
+
+    <marquee behavior="" direction="" scrollamount="10px" bgcolor="red" height="" width="80%" font size=""
+    style="transform: translate(145px,-230px); box-shadow: 0px 0px 10px 5px gray; color: white;
+    text-shadow: 0px 0px 10px darkblue; border-radius: 50px;">
+        Welcome To Shree Mahunyal Secondary School | Bardagoriya Gaunpalika ward no.6, Baskoti Kailali |
+    </marquee>
+
+    <div class="sort">   <!--this is sort div-->
+        <div class="sorty">
+        <div class="sortfir">W</div>
+        <div class="sortsec">E</div>
+        <div class="sortthi">L</div>
+        <div class="sortfor">C</div>
+        <div class="sortfiv">O</div>
+        <div class="sortsix">M</div>
+        <div class="sortsev">E</div>
+        </div>
+    </div>   <!--this is end of sort div-->
+
+</div>    <!--this is ending of row 1-->
+
+<div class="row2">    <!--this is row 2-->
+
+  <div class="row2col1">
+
+       <a href="setting.html" style="color: white; text-decoration: none;">Setting</a>
+
+   </div>
+ <div class="row2col2">
+
+       <a href="home.html" style="color: white; text-decoration: none;">Home</a>
+
+   </div>
+  <div class="row2col3">
+
+       <a href="help.html" style="color: white; text-decoration: none;">Help</a>
+
+   </div>
+  <div class="row2col4">
+
+    <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+
+   </div>
+
+
+</div>         <!--this is ending of row 2-->
+
+<div class="row3">  <!--this is row 3-->
+    
+<p align="justify">   <!--this is for my paragraph-->
+    The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore accusantium maxime a ea in ipsum. Est fugiat laboriosam blanditiis dict
+    cupiditate alias perferendis. Incidunt, quas minima excepturi necessitatibus porro doloribus?
+        The is the Official Website of my School. The major purpose of building this site is to encourage the curiorsity of my mind, and maybe its
+    to hear that our school is forcing us to making this types of stuff. I am feeling glad to have a golden oppurtunity to concern inside this
+    project. So hello everyone I am Deep the devloper of this site and i am going to serve you this
+    specticular stuff on your purpose.
+</p>           <!--this is end of paragraph-->
+
+</div>               <!--ending of row 3-->
+
+<div class="row4">            <!--this is row 4-->
+
+    <div class="row4col1">     <!--this is row 4 col 1-->
+
+        <div class="row4col1row1">
+         <a href="form.html" style="color: white; text-decoration: none;">Form</a>
+        </div>
+        <div class="row4col1row2">
+            <a href="image.html" style="color: white; text-decoration: none;">Images</a>
+        </div>
+        <div class="row4col1row3">
+            <a href="teacher.html" style="color: white; text-decoration: none;">Teachers</a>
+        </div>
+        <div class="row4col1row4">
+            <a href="info.html" style="color: white; text-decoration: none;">Important Info</a>
+        </div>
+
+
+    </div>             <!--this is ending of row 4 col 1-->
+
+    <div class="row4col2">      <!--this is row 4 col2-->
+        <div class="row4col3">    <!--this is row 4 col 3-->
+            <h2>&nbsp;&nbsp;&nbsp;Follow us on:</h2>
+            <div class="row4col3row1">
+                <a href="www.facebook.com" style="color: white; text-decoration: none;">Facebook</a>
+            </div>
+            <div class="row4col3row2">
+                <a href="www.twitter.com" style="color: white; text-decoration: none;">Twitter</a>
+            </div>
+            <div class="row4col3row3">
+                <a href="www.instagram.com" style="color: white; text-decoration: none;">Insta</a>
+            </div>
+            <div class="row4col3row4">
+                <a href="www.youtube.com" style="color: white; text-decoration: none;">Youtube</a>
+            </div>
+
+
+        </div>   <!--this is ending of row 4 col 3-->
+
+    </div>          <!--this is ending of row 4 col 2-->
+    <div class="row4col4">
+        <div class="row4col4row1"><a href="login.html" style="color: white; text-decoration: none;">Login</a></div>
+        <div class="row4col4row2">
+            For information
+    </br>
+contact us on: 9800000000
+</br>
+&
+</br>
+For more information
+</br>
+plz check out our email address:
+</br><hr></br>
+<a href="www.gmail.com" style="text-decoration: none; color: white;"><h6>deeprchaudhari27@gmain.com</h6></a>
+</div>
+    </div>
+
+
+</div>                      <!--this is ending of row 4-->
+
+<div class="row5">          <!--this is row 5-->
+    The main intention behind this project is to enable our curiousity and you all play vital role to provide this to us.
+        You are the reason why we were grinded to making this and serve to you the most specticular stuff in the entire world &
+        At last we want to say you........ 
+</br>
+</br>
+<h2>Thank You for visiting our site !</h2>
+    
+    </div>            <!--this is ending of row 5-->
+
+
+</div>    <!--ending of main div-->
+
+
+</body>
+
+</html>
